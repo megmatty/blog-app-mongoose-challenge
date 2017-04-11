@@ -1,0 +1,11 @@
+language: node_js
+node_js: node
+services:
+- mongodb
+deploy:
+  provider: heroku
+  api_key:
+    secure: S6FgU9+Vt4YlMk4kuXiE8s5Di0/DTQlOz/EHM6E1NPR2xbcKR6h6R2Yj+ir/XpC7w+v/huaxUJw275dNXX2keGrqz9q4WWvyhEw0HPQDP+bST4F5k4SZE3R1mjFgeyDEqIKWX4+EaDWUebpK8zL2vxNvZWoSs8+fE8A5sL/Nyglu6DgAnThzSLItADH3+4+mai4mfzeWHBR5+mDEUgT3Nud1+aJzOUmnnMOkjSSSROW8iBFvr2tLFNeSZaMXBYGwvZKfngJWOYXdY4HP6u0Asj0NagazFFVawFohCGUA+6zXdaB1NmooODQUnvJk4FQIgRIa40/amVf0W0kBngqtBNfKU4L+A6NSqRXH3x43mytktB8FVqhK14zIrSlq+8lw3W3Qm3jSJ+s3DDWZa68HPXU2aGGEhJjZJLPGRykQ02YLuT7nxU4SEozzLL8Py6/nijpJ1rFq8wWPVvqnV0XwBv4lALvk6oQP1NW9ThcYxpgebekVjruqExZd2d3zfyGZpdwGJjZCneH3/BxYkWpbGQg+r627fGSMd/yk9WUKGXCW5lMfB3fIfqmmqoUvMeB9mgr9gzbLQxE1Z7Pnm2czkwNgm2g7sqA+C49H9pAI4XwQA+GbEWfQat8Rdyk0zKlJvgf6+7jme6FGypfrrYoXQwkqx69fj9YE98M4unyHAik=
+  app:  blooming-dusk-69409
+  on:
+    repo: megmatty/blog-app-mongoose-challenge
